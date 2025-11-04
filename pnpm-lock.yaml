@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@headlessui/react':
     specifier: ^1.7.19
@@ -8,8 +12,8 @@ dependencies:
     specifier: ^2.2.4
     version: 2.2.4(@babel/core@7.24.4)(next@14.2.2)(react-dom@18.0.0)(react@18.0.0)
   '@prisma/client':
-    specifier: ^5.13.0
-    version: 5.13.0(prisma@5.13.0)
+    specifier: ^5.22.0
+    version: 5.22.0(prisma@5.22.0)
   '@radix-ui/react-aspect-ratio':
     specifier: ^1.0.3
     version: 1.0.3(@types/react-dom@18.0.0)(@types/react@18.3.1)(react-dom@18.0.0)(react@18.0.0)
@@ -44,8 +48,8 @@ dependencies:
     specifier: ^5.32.0
     version: 5.32.0(react@18.0.0)
   '@uploadthing/react':
-    specifier: ^6.5.0
-    version: 6.5.0(fast-check@3.17.2)(next@14.2.2)(react@18.0.0)(uploadthing@6.10.0)
+    specifier: ^6.8.0
+    version: 6.8.0(next@14.2.2)(react@18.0.0)(uploadthing@6.13.3)
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -62,8 +66,8 @@ dependencies:
     specifier: 14.2.2
     version: 14.2.2(@babel/core@7.24.4)(react-dom@18.0.0)(react@18.0.0)
   prisma:
-    specifier: ^5.13.0
-    version: 5.13.0
+    specifier: ^5.22.0
+    version: 5.22.0
   react:
     specifier: ^18
     version: 18.0.0
@@ -74,8 +78,8 @@ dependencies:
     specifier: ^0.2.0
     version: 0.2.0(react@18.0.0)
   react-dropzone:
-    specifier: ^14.2.3
-    version: 14.2.3(react@18.0.0)
+    specifier: ^14.3.8
+    version: 14.3.8(react@18.0.0)
   react-rnd:
     specifier: ^10.4.10
     version: 10.4.10(react-dom@18.0.0)(react@18.0.0)
@@ -89,8 +93,8 @@ dependencies:
     specifier: ^1.4.41
     version: 1.4.41(react-dom@18.0.0)(react@18.0.0)
   stripe:
-    specifier: ^15.4.0
-    version: 15.4.0
+    specifier: ^15.12.0
+    version: 15.12.0
   tailwind-merge:
     specifier: ^2.3.0
     version: 2.3.0
@@ -98,11 +102,11 @@ dependencies:
     specifier: ^1.0.7
     version: 1.0.7(tailwindcss@3.4.1)
   uploadthing:
-    specifier: ^6.10.0
-    version: 6.10.0(fast-check@3.17.2)(next@14.2.2)(tailwindcss@3.4.1)
+    specifier: ^6.13.3
+    version: 6.13.3(next@14.2.2)(tailwindcss@3.4.1)
   zod:
-    specifier: ^3.23.4
-    version: 3.23.4
+    specifier: ^3.25.76
+    version: 3.25.76
 
 devDependencies:
   '@types/node':
@@ -1325,14 +1329,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@effect/schema@0.66.8(effect@3.0.5)(fast-check@3.17.2):
-    resolution: {integrity: sha512-TJ2wGt1O4WqNrZtz9bRd+Mo8sitS33Ifj1u9TqXAg8FlWn7OA+MtULQmktdDVAlWw18QmamKX7grKeatL+0iCg==}
+  /@effect/schema@0.68.18(effect@3.4.8):
+    resolution: {integrity: sha512-+knLs36muKsyqIvQTB0itGp5Lwy+5jgEC0G5P8wSsrB6EWGFirS87QjbaFYGbg32l/P51RM+9cPMiAEyICwN6g==}
+    deprecated: this package has been merged into the main effect package
     peerDependencies:
-      effect: ^3.0.5
-      fast-check: ^3.13.2
+      effect: ^3.4.8
     dependencies:
-      effect: 3.0.5
-      fast-check: 3.17.2
+      effect: 3.4.8
+      fast-check: 3.23.2
     dev: false
 
   /@eslint/eslintrc@1.4.1:
@@ -1591,8 +1595,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@prisma/client@5.13.0(prisma@5.13.0):
-    resolution: {integrity: sha512-uYdfpPncbZ/syJyiYBwGZS8Gt1PTNoErNYMuqHDa2r30rNSFtgTA/LXsSk55R7pdRTMi5pHkeP9B14K6nHmwkg==}
+  /@prisma/client@5.22.0(prisma@5.22.0):
+    resolution: {integrity: sha512-M0SVXfyHnQREBKxCgyo7sffrKttwE6R8PMq330MIUF0pTwjUhLbW84pFDlf06B27XyCR++VtjugEnIHdr07SVA==}
     engines: {node: '>=16.13'}
     requiresBuild: true
     peerDependencies:
@@ -1601,39 +1605,39 @@ packages:
       prisma:
         optional: true
     dependencies:
-      prisma: 5.13.0
+      prisma: 5.22.0
     dev: false
 
-  /@prisma/debug@5.13.0:
-    resolution: {integrity: sha512-699iqlEvzyCj9ETrXhs8o8wQc/eVW+FigSsHpiskSFydhjVuwTJEfj/nIYqTaWFYuxiWQRfm3r01meuW97SZaQ==}
+  /@prisma/debug@5.22.0:
+    resolution: {integrity: sha512-AUt44v3YJeggO2ZU5BkXI7M4hu9BF2zzH2iF2V5pyXT/lRTyWiElZ7It+bRH1EshoMRxHgpYg4VB6rCM+mG5jQ==}
     dev: false
 
-  /@prisma/engines-version@5.13.0-23.b9a39a7ee606c28e3455d0fd60e78c3ba82b1a2b:
-    resolution: {integrity: sha512-AyUuhahTINGn8auyqYdmxsN+qn0mw3eg+uhkp8zwknXYIqoT3bChG4RqNY/nfDkPvzWAPBa9mrDyBeOnWSgO6A==}
+  /@prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2:
+    resolution: {integrity: sha512-2PTmxFR2yHW/eB3uqWtcgRcgAbG1rwG9ZriSvQw+nnb7c4uCr3RAcGMb6/zfE88SKlC1Nj2ziUvc96Z379mHgQ==}
     dev: false
 
-  /@prisma/engines@5.13.0:
-    resolution: {integrity: sha512-hIFLm4H1boj6CBZx55P4xKby9jgDTeDG0Jj3iXtwaaHmlD5JmiDkZhh8+DYWkTGchu+rRF36AVROLnk0oaqhHw==}
+  /@prisma/engines@5.22.0:
+    resolution: {integrity: sha512-UNjfslWhAt06kVL3CjkuYpHAWSO6L4kDCVPegV6itt7nD1kSJavd3vhgAEhjglLJJKEdJ7oIqDJ+yHk6qO8gPA==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 5.13.0
-      '@prisma/engines-version': 5.13.0-23.b9a39a7ee606c28e3455d0fd60e78c3ba82b1a2b
-      '@prisma/fetch-engine': 5.13.0
-      '@prisma/get-platform': 5.13.0
+      '@prisma/debug': 5.22.0
+      '@prisma/engines-version': 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+      '@prisma/fetch-engine': 5.22.0
+      '@prisma/get-platform': 5.22.0
     dev: false
 
-  /@prisma/fetch-engine@5.13.0:
-    resolution: {integrity: sha512-Yh4W+t6YKyqgcSEB3odBXt7QyVSm0OQlBSldQF2SNXtmOgMX8D7PF/fvH6E6qBCpjB/yeJLy/FfwfFijoHI6sA==}
+  /@prisma/fetch-engine@5.22.0:
+    resolution: {integrity: sha512-bkrD/Mc2fSvkQBV5EpoFcZ87AvOgDxbG99488a5cexp5Ccny+UM6MAe/UFkUC0wLYD9+9befNOqGiIJhhq+HbA==}
     dependencies:
-      '@prisma/debug': 5.13.0
-      '@prisma/engines-version': 5.13.0-23.b9a39a7ee606c28e3455d0fd60e78c3ba82b1a2b
-      '@prisma/get-platform': 5.13.0
+      '@prisma/debug': 5.22.0
+      '@prisma/engines-version': 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+      '@prisma/get-platform': 5.22.0
     dev: false
 
-  /@prisma/get-platform@5.13.0:
-    resolution: {integrity: sha512-B/WrQwYTzwr7qCLifQzYOmQhZcFmIFhR81xC45gweInSUn2hTEbfKUPd2keAog+y5WI5xLAFNJ3wkXplvSVkSw==}
+  /@prisma/get-platform@5.22.0:
+    resolution: {integrity: sha512-pHhpQdr1UPFpt+zFfnPazhulaZYCUqeIcPpJViYoq9R+D/yw4fjE+CtnsnKzPYm0ddUbeXUzjGVGIRVgPDCk4Q==}
     dependencies:
-      '@prisma/debug': 5.13.0
+      '@prisma/debug': 5.22.0
     dev: false
 
   /@radix-ui/number@1.0.1:
@@ -2657,8 +2661,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@uploadthing/dropzone@0.4.0(react@18.0.0):
-    resolution: {integrity: sha512-IZmmUu3vSSmUoToSf6CTprSlMJuQ2n75u7XcXrNjPG4TgyQpSiYPKqkdHV2/JPzsXfzITM+i3SPW5Ez3fdGQnA==}
+  /@uploadthing/dropzone@0.4.1(react@18.0.0):
+    resolution: {integrity: sha512-RHSpo/2kg/mrRSYQA4EKlyvkOCYWOeE2+QQYW9YiUvWCuawnTfD7DQvk8RN/nYXi1Sw7/v0NegmQpiVELVGtnA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       solid-js: ^1.7.11
@@ -2678,49 +2682,39 @@ packages:
       react: 18.0.0
     dev: false
 
-  /@uploadthing/mime-types@0.2.8:
-    resolution: {integrity: sha512-x+OhjdgC+FXzIScuVDzWxUpPKRjq/WiXNh6bUz1pNAHsb7ecKhxHUfhdWg8+YkO32kDs8TCuMN1bVWTyJYDMQA==}
+  /@uploadthing/mime-types@0.2.10:
+    resolution: {integrity: sha512-kz3F0oEgAyts25NAGXlUBCWh3mXonbSOQJFGFMawHuIgbUbnzXbe4w5WI+0XdneCbjNmikfWrdWrs8m/7HATfQ==}
     dev: false
 
-  /@uploadthing/react@6.5.0(fast-check@3.17.2)(next@14.2.2)(react@18.0.0)(uploadthing@6.10.0):
-    resolution: {integrity: sha512-Mapjyl897k93b7SRi5A+Ez4hOpBrgu0vgRFbM2Ni/2GIul1jdJVebcOJ0LDB9TAZmQ4G4sMgL7h1QlfDUBSvlg==}
+  /@uploadthing/react@6.8.0(next@14.2.2)(react@18.0.0)(uploadthing@6.13.3):
+    resolution: {integrity: sha512-4GCYww4M2d8X8TQnNIW3mZYrCv9ichSMRLZa9KyH+PYuiBP74edyBJaCUFVK3jiWPXBUJFN0+If2Aviq7pY2VQ==}
     peerDependencies:
       next: '*'
       react: ^17.0.2 || ^18.0.0
-      uploadthing: 6.10.0
+      uploadthing: 6.13.3
     peerDependenciesMeta:
       next:
         optional: true
     dependencies:
-      '@uploadthing/dropzone': 0.4.0(react@18.0.0)
-      '@uploadthing/shared': 6.7.0(@uploadthing/mime-types@0.2.8)(fast-check@3.17.2)
+      '@uploadthing/dropzone': 0.4.1(react@18.0.0)
+      '@uploadthing/shared': 6.7.9
       file-selector: 0.6.0
       next: 14.2.2(@babel/core@7.24.4)(react-dom@18.0.0)(react@18.0.0)
       react: 18.0.0
       tailwind-merge: 2.3.0
-      uploadthing: 6.10.0(fast-check@3.17.2)(next@14.2.2)(tailwindcss@3.4.1)
+      uploadthing: 6.13.3(next@14.2.2)(tailwindcss@3.4.1)
     transitivePeerDependencies:
-      - '@uploadthing/mime-types'
-      - fast-check
       - solid-js
       - svelte
       - vue
     dev: false
 
-  /@uploadthing/shared@6.7.0(@uploadthing/mime-types@0.2.8)(fast-check@3.17.2):
-    resolution: {integrity: sha512-+5xBa3gdCoCI2R2HkIOAu0DRiZqEt3MtOHefNsuVlYjpEngeg04AHlNaTvAIFuBz6Wz43SFOiqpeQcpqGBUc5w==}
-    peerDependencies:
-      '@uploadthing/mime-types': 0.2.8
-    peerDependenciesMeta:
-      '@uploadthing/mime-types':
-        optional: true
+  /@uploadthing/shared@6.7.9:
+    resolution: {integrity: sha512-EsHkD31HLBHYB59ZbUVQg1pADtMNf+qjlKwniq+gxXsOOe5heD/zunJStjYWLhwB+C8+SaCPXvM7LiDmv5s/Vw==}
     dependencies:
-      '@effect/schema': 0.66.8(effect@3.0.5)(fast-check@3.17.2)
-      '@uploadthing/mime-types': 0.2.8
-      effect: 3.0.5
+      '@uploadthing/mime-types': 0.2.10
+      effect: 3.4.8
       std-env: 3.7.0
-    transitivePeerDependencies:
-      - fast-check
     dev: false
 
   /abbrev@2.0.0:
@@ -2917,8 +2911,8 @@ packages:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
     dev: true
 
-  /attr-accept@2.2.2:
-    resolution: {integrity: sha512-7prDjvt9HmqiZ0cl5CRjtS84sEyhsHP2coDkaZKRKVfCDo9s7iw7ChVmar78Gu9pC4SoR/28wFu/G5JJhTnqEg==}
+  /attr-accept@2.2.5:
+    resolution: {integrity: sha512-0bDNnY/u6pPwHDMoF0FieU354oBi0a8rD9FcsLwzcGWbc8KS8KPIi7y+s13OlVY+gMWc/9xEMUgNE6Qm8ZllYQ==}
     engines: {node: '>=4'}
     dev: false
 
@@ -2985,6 +2979,7 @@ packages:
 
   /bare-events@2.2.2:
     resolution: {integrity: sha512-h7z00dWdG0PYOQEvChhOSWvOfkIKsdZGkWr083FgN/HyoQuebSew/cgirYqh9SCuy/hRvxc5Vy6Fw8xAmYHLkQ==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -3000,11 +2995,13 @@ packages:
 
   /bare-os@2.3.0:
     resolution: {integrity: sha512-oPb8oMM1xZbhRQBngTgpcQ5gXw6kjOaRsSWsIeNyRxGed2w/ARyP7ScBYpWR1qfX2E5rS3gBw6OWcSQo+s+kUg==}
+    requiresBuild: true
     dev: false
     optional: true
 
   /bare-path@2.1.2:
     resolution: {integrity: sha512-o7KSt4prEphWUHa3QUwCxUI00R86VdjiuxmJK0iNVDHYPGo+HsDaVCnqCmPbf/MiW1ok8F4p3m8RTHlWk8K2ig==}
+    requiresBuild: true
     dependencies:
       bare-os: 2.3.0
     dev: false
@@ -3012,6 +3009,7 @@ packages:
 
   /bare-stream@1.0.0:
     resolution: {integrity: sha512-KhNUoDL40iP4gFaLSsoGE479t0jHijfYdIcxRn/XtezA2BaUD0NRf/JGRpsMq6dMNM+SrCrB0YSSo/5wBY4rOQ==}
+    requiresBuild: true
     dependencies:
       streamx: 2.16.1
     dev: false
@@ -3434,8 +3432,8 @@ packages:
       semver: 7.6.0
     dev: false
 
-  /effect@3.0.5:
-    resolution: {integrity: sha512-cXAKns46iWEQkZHgRU+ehgfV2Au34HopVIBkWwTbD+iRR50zMOHNEHEjXGnyJPtWyYlLBQtB9AZXFoc72ChwPA==}
+  /effect@3.4.8:
+    resolution: {integrity: sha512-qOQNrSSN3ITuAtARtN2Ldq6E5f42splY9VV18LqpKOXMwQCCEWkXdns4by3D2CJnDXQD2KCE0iGcRR2KowiQIA==}
     dev: false
 
   /electron-to-chromium@1.4.747:
@@ -3899,8 +3897,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /fast-check@3.17.2:
-    resolution: {integrity: sha512-+3DPTxtxABLgmmVpYxrash3DHoq0cMa1jjLYNp3qqokKKhqVEaS4lbnaDKqWU5Dd6C2pEudPPBAEEQ9nUou9OQ==}
+  /fast-check@3.23.2:
+    resolution: {integrity: sha512-h5+1OzzfCC3Ef7VbtKdcv7zsstUQwUDlYpUTvjeUsJAssPgLn7QzbboPtL5ro04Mq0rPOsMzl7q5hIbRs2wD1A==}
     engines: {node: '>=8.0.0'}
     dependencies:
       pure-rand: 6.1.0
@@ -3949,6 +3947,13 @@ packages:
     engines: {node: '>= 12'}
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /file-selector@2.1.2:
+    resolution: {integrity: sha512-QgXo+mXTe8ljeqUFaX3QVHc5osSItJ/Km+xpocx0aSqWGMSCf6qYs/VnzZgS864Pjn5iceMRFigeAV7AfTlaig==}
+    engines: {node: '>= 12'}
+    dependencies:
+      tslib: 2.8.1
     dev: false
 
   /fill-range@7.0.1:
@@ -5076,13 +5081,15 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prisma@5.13.0:
-    resolution: {integrity: sha512-kGtcJaElNRAdAGsCNykFSZ7dBKpL14Cbs+VaQ8cECxQlRPDjBlMHNFYeYt0SKovAVy2Y65JXQwB3A5+zIQwnTg==}
+  /prisma@5.22.0:
+    resolution: {integrity: sha512-vtpjW3XuYCSnMsNVBjLMNkTj6OZbudcPPTPYHqX0CJfpcdWciI1dM8uHETwmDxxiqEwCIE6WvXucWUetJgfu/A==}
     engines: {node: '>=16.13'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 5.13.0
+      '@prisma/engines': 5.22.0
+    optionalDependencies:
+      fsevents: 2.3.3
     dev: false
 
   /prismjs@1.29.0:
@@ -5207,14 +5214,14 @@ packages:
       react-dom: 18.0.0(react@18.0.0)
     dev: false
 
-  /react-dropzone@14.2.3(react@18.0.0):
-    resolution: {integrity: sha512-O3om8I+PkFKbxCukfIR3QAGftYXDZfOE2N1mr/7qebQJHs7U+/RSL/9xomJNpRg9kM5h9soQSdf0Gc7OHF5Fug==}
+  /react-dropzone@14.3.8(react@18.0.0):
+    resolution: {integrity: sha512-sBgODnq+lcA4P296DY4wacOZz3JFpD99fp+hb//iBO2HHnyeZU3FwWyXJ6salNpqQdsZrgMrotuko/BdJMV8Ug==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       react: '>= 16.8 || 18.0.0'
     dependencies:
-      attr-accept: 2.2.2
-      file-selector: 0.6.0
+      attr-accept: 2.2.5
+      file-selector: 2.1.2
       prop-types: 15.8.1
       react: 18.0.0
     dev: false
@@ -5709,8 +5716,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /stripe@15.4.0:
-    resolution: {integrity: sha512-o3STlHYUmJh1ogAem434As7hCMEGG43R1fFkX0NuxabnmZoOQ9Ytxuu+e5Tq5NSE3LPUIV64jbjQebHoZvLTKw==}
+  /stripe@15.12.0:
+    resolution: {integrity: sha512-slTbYS1WhRJXVB8YXU8fgHizkUrM9KJyrw4Dd8pLEwzKHYyQTIE46EePC2MVbSDZdE24o1GdNtzmJV4PrPpmJA==}
     engines: {node: '>=12.*'}
     dependencies:
       '@types/node': 20.0.0
@@ -5904,6 +5911,10 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+    dev: false
+
   /tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
     dependencies:
@@ -6019,16 +6030,19 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /uploadthing@6.10.0(fast-check@3.17.2)(next@14.2.2)(tailwindcss@3.4.1):
-    resolution: {integrity: sha512-4wuvfzg7mG0ffO2WfkoFdr5L4EHPXy55vN7Ju7/IJzddqTHWyH1p1ucE0Jsoniybn/tXB7hUsNQjVxJyvP41nQ==}
+  /uploadthing@6.13.3(next@14.2.2)(tailwindcss@3.4.1):
+    resolution: {integrity: sha512-MkwKeuo0cVSJ9XHZgEW67qzCmk8QF1mDNf3cDnDC4v0g7o7mnCWgATyYsKSFURQPLnRvysddDxmsaekDOomXvw==}
     engines: {node: '>=18.13.0'}
     peerDependencies:
+      '@effect/platform': '*'
       express: '*'
       fastify: '*'
       h3: '*'
       next: '*'
       tailwindcss: '*'
     peerDependenciesMeta:
+      '@effect/platform':
+        optional: true
       express:
         optional: true
       fastify:
@@ -6040,16 +6054,14 @@ packages:
       tailwindcss:
         optional: true
     dependencies:
-      '@effect/schema': 0.66.8(effect@3.0.5)(fast-check@3.17.2)
-      '@uploadthing/mime-types': 0.2.8
-      '@uploadthing/shared': 6.7.0(@uploadthing/mime-types@0.2.8)(fast-check@3.17.2)
+      '@effect/schema': 0.68.18(effect@3.4.8)
+      '@uploadthing/mime-types': 0.2.10
+      '@uploadthing/shared': 6.7.9
       consola: 3.2.3
-      effect: 3.0.5
+      effect: 3.4.8
       next: 14.2.2(@babel/core@7.24.4)(react-dom@18.0.0)(react@18.0.0)
       std-env: 3.7.0
       tailwindcss: 3.4.1
-    transitivePeerDependencies:
-      - fast-check
     dev: false
 
   /uri-js@4.4.1:
@@ -6183,6 +6195,6 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
-  /zod@3.23.4:
-    resolution: {integrity: sha512-/AtWOKbBgjzEYYQRNfoGKHObgfAZag6qUJX1VbHo2PRBgS+wfWagEY2mizjfyAPcGesrJOcx/wcl0L9WnVrHFw==}
+  /zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
     dev: false
